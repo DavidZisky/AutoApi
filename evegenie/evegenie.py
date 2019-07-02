@@ -125,7 +125,7 @@ class EveGenie(object):
             float: 'float',
             dict: 'dict',
             list: 'list',
-            OrderedDict: 'OrderedDict',
+            OrderedDict: 'dict',
             type(None): 'null',
         }
         source_type = type(source)
